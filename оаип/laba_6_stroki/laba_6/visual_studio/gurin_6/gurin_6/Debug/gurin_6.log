@@ -1,0 +1,3 @@
+﻿  gurin_6.cpp
+c:\users\ratmi\dropbox\учеба\оаип\laba_6_stroki\laba_6\visual_studio\gurin_6\gurin_6\gurin_6.cpp(17): error C2660: 'strtok_s': function does not take 2 arguments
+c:\users\ratmi\dropbox\учеба\оаип\laba_6_stroki\laba_6\visual_studio\gurin_6\gurin_6\gurin_6.cpp(32): error C2660: 'strtok_s': function does not take 2 arguments
