@@ -1,6 +1,5 @@
 ﻿  gurin_7_12.cpp
-c:\users\ratmi\dropbox\учеба\оаип\laba_7_rekursia\gurin_7\gurin_7\gurin_7\gurin_7_12\gurin_7_12\gurin_7_12\gurin_7_12.cpp(31): warning C4018: '<': signed/unsigned mismatch
-c:\users\ratmi\dropbox\учеба\оаип\laba_7_rekursia\gurin_7\gurin_7\gurin_7\gurin_7_12\gurin_7_12\gurin_7_12\gurin_7_12.cpp(46): warning C4018: '<': signed/unsigned mismatch
-c:\users\ratmi\dropbox\учеба\оаип\laba_7_rekursia\gurin_7\gurin_7\gurin_7\gurin_7_12\gurin_7_12\gurin_7_12\gurin_7_12.cpp(22): warning C4101: 'n': unreferenced local variable
-c:\users\ratmi\dropbox\учеба\оаип\laba_7_rekursia\gurin_7\gurin_7\gurin_7\gurin_7_12\gurin_7_12\gurin_7_12\gurin_7_12.cpp(17): warning C4715: 'gFind': not all control paths return a value
-  gurin_7_12.vcxproj -> C:\Users\ratmi\Dropbox\учеба\ОАиП\laba_7_rekursia\gurin_7\gurin_7\gurin_7\gurin_7_12\gurin_7_12\Debug\gurin_7_12.exe
+d:\учеба\оаип\git\learning\оаип\laba_7_rekursia\gurin_7\gurin_7\gurin_7\gurin_7_12\gurin_7_12\gurin_7_12\gurin_7_12.cpp(22): warning C4101: 'i': unreferenced local variable
+d:\учеба\оаип\git\learning\оаип\laba_7_rekursia\gurin_7\gurin_7\gurin_7\gurin_7_12\gurin_7_12\gurin_7_12\gurin_7_12.cpp(22): warning C4101: 'n': unreferenced local variable
+d:\учеба\оаип\git\learning\оаип\laba_7_rekursia\gurin_7\gurin_7\gurin_7\gurin_7_12\gurin_7_12\gurin_7_12\gurin_7_12.cpp(17): warning C4715: 'gFind': not all control paths return a value
+  gurin_7_12.vcxproj -> D:\учеба\ОАиП\git\learning\оаип\laba_7_rekursia\gurin_7\gurin_7\gurin_7\gurin_7_12\gurin_7_12\Debug\gurin_7_12.exe

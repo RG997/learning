@@ -20,6 +20,10 @@ int gFind(char* A, int gStart, int gEnd) {
 
 void main(int argc, char* argv[]) {
 	int n,i;
+
+
+	/* input and save in my_file.txt string
+	
 	cout << "Input string" << endl;
 	char* str_file = new char;
 	fgets(str_file, 1000, stdin);
@@ -36,20 +40,14 @@ void main(int argc, char* argv[]) {
 	else {
 		cout << "Couldn't write...";
 		fclose(fp);
-	}
+	}*/
 
 
-	char* str_read = new char;
+	char str_read[100];
 	FILE* fr;
 	errno_t B;
-	B = fopen_s(&fr, str_read, "r");
-
-	for (i = 0; i < strlen(str_read); i++) {
-			getc(fr);//dodelat' chtenie iz file
-	}
-	cout<<"Number of digits "<<gFind(str_file, 0, strlen(str_file)-2)<<endl;
-
-
-
+	B = fopen_s(&fr, "my_file.txt", "r");
+	fgets(str_read,100,fr);
+	cout<<"Number of digits "<<gFind(str_read, 0, strlen(str_read)-2)<<endl;
 	system("PAUSE");
 }
