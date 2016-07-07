@@ -1,0 +1,17 @@
+<html>
+	<body>
+		<script>
+			var arr = ['zero','uno','due','tre'];
+			arr = arr.map(function(value, index, array)){
+			return function(){
+			alert(index+':'+value);
+			};
+			});
+			
+			arr.forEach(function(fn)){
+			fn();
+			});
+		</script>
+	</body>
+
+</html>
