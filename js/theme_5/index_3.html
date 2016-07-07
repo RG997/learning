@@ -1,0 +1,26 @@
+<html>
+	<script>
+	function append(form){
+		if (form.input.value){
+			var newItem = document.createElement("ul");
+			newItem.appendChild(document.createTextNode(form.input.value));
+			document.getElementById("myUL").appendChild(newItem);
+		}
+	}
+	</script>
+	
+	<h1>DOM example</h1>
+	<br/>
+	<h2> Methods <b> appendChild()</b></h2>
+	list of elements
+	<ul id="myUL">
+		<li>1 element</li>
+		<li>2 element</li>	
+	</ul>
+	<form>
+	Unput text to change:
+	<input type="text" name="input" size="30"/><br/>
+	<input type="button" value="Add" onclick="append(this.form)"/>
+	</form>
+	
+</html>

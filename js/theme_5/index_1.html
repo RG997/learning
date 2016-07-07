@@ -1,0 +1,25 @@
+<html>
+	<body>
+		<script>
+		var human={
+		name:'Edvard',
+		age:2226
+		}
+		
+		document.write(human.name+'<br/>');
+		document.write(human.age+'<br/>');
+		
+		var flag;
+		human.think = function (){
+			if (flag == true)
+				document.write(human.age + ' can thinking.<br/>');
+			else
+				document.write(human.name + ' can not thinking.<br/>');
+		}
+		
+		human.think();
+		</script>
+		
+		
+	</body>
+</html>

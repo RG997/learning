@@ -1,0 +1,37 @@
+<html>
+	<body>
+		<form name="test_form_name" id="test_form_id" method="get" action="?">
+		<input type="text" name="text_name" id="text_id" value="text"/><br/>
+		<input type="password" name="password_name" id="password_id" value="password"/><br/>
+		<input type="radio" name="radio_group_1" id="radio+id_1" value="radio_1"/>
+		<input type="radio" name="radio_group_1" id="radio+id_2" value="radio_2"/>		
+		<input type="radio" name="radio_group_1" id="radio+id_3" value="radio_3"/><br/>
+		<input type="radio" name="radio_group_2" id="radio+id_a" value="radio_a"/>	
+		<input type="radio" name="radio_group_2" id="radio+id_b" value="radio_b"/>	
+		<input type="radio" name="radio_group_2" id="radio+id_c" value="radio_c" checked="checked"/><br/>	
+		<input type="checkbox" name="check_a" id="check_id_a" value="check_1" checked="checked"/>		
+		<input type="checkbox" name="check_b" id="check_id_b" value="check_2"/>
+		<input type="checkbox" name="check_c" id="check_id_c" value="check_3" checked="checked"/><br/>
+		<select name="select_name_form" id="select_id_form">
+			<option value="option_1">1</value>
+			<option value="option_2" selected="selected">2</value>
+			<option value="option_3">3</value>
+		</select><br/>
+		<select name="select_name_to" id="select_id_to">
+			<option value="option_4">4</value>
+			<option value="option_5">5</value>
+			<option value="option_6">6</value>
+		</select><br/>	
+		<textarea name="textarea_name" id="textarea_id" cols="20" rows="5">Textarea</textarea><br/>
+		<input type="submit" name="submit_name" id="submit_id" value="submit"/>
+		<input type="reset" name="reset_name" id="reset_id" value="reset"/>
+		</form>
+		<script>
+		var resultsElement = document.getElementById("test_form_id");
+		document.writeln('nodeType and nodeName' + '<br/>');
+		document.writeln(resultsElement.nodeType + '<br/>');
+		document.writeln(resultsElement.nodeName + '<br/>');
+		document.write(document.forms[0].name + '<br/>');		
+		</script>
+	</body>
+</html>
